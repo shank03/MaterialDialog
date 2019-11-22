@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Alpha Developer<sup>TM</sup> Inc. Copyright (c) 2019.
+  ~ This is the work of, from and by individual team member.  Any duplication or publication of this code without our
+  ~ consent AND without this Copyrighted Text is subjected to Copyright Infringement and could even lead to court
+  ~ cases.
+  ~
+  ~ Contact emails :-
+  ~     (Group) alphadeveloper3@gmail.com
+  ~     (Team Leader) shashank.verma2002@gmail.com
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/card_color"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:theme="@style/AppTheme">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/android_mtrl_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/android_mtrl_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/android_mtrl_dialog_negative_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_toStartOf="@id/android_mtrl_dialog_positive_btn"
+            android:theme="@style/AppTheme"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:rippleColor="@color/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/android_mtrl_negative_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="60dp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/android_mtrl_dialog_positive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:theme="@style/AppTheme"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:rippleColor="@color/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/android_mtrl_positive_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="60dp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/android_mtrl_dialog_neutral_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:rippleColor="@color/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/android_mtrl_neutral_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxWidth="160dp"
+                android:minWidth="60dp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+</LinearLayout>

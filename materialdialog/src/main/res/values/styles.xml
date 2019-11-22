@@ -1,0 +1,27 @@
+<!--
+  ~ Alpha Developer<sup>TM</sup> Inc. Copyright (c) 2019.
+  ~ This is the work of, from and by individual team member.  Any duplication or publication of this code without our
+  ~ consent AND without this Copyrighted Text is subjected to Copyright Infringement and could even lead to court
+  ~ cases.
+  ~
+  ~ Contact emails :-
+  ~     (Group) alphadeveloper3@gmail.com
+  ~     (Team Leader) shashank.verma2002@gmail.com
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">@color/colorPrimary
+        </item>
+    </style>
+
+</resources>

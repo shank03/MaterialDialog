@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Alpha Developer<sup>TM</sup> Inc. Copyright (c) 2019.
+  ~ This is the work of, from and by individual team member.  Any duplication or publication of this code without our
+  ~ consent AND without this Copyrighted Text is subjected to Copyright Infringement and could even lead to court
+  ~ cases.
+  ~
+  ~ Contact emails :-
+  ~     (Group) alphadeveloper3@gmail.com
+  ~     (Team Leader) shashank.verma2002@gmail.com
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/card_color" />
+
+    <corners android:radius="12dp" />
+
+</shape>
