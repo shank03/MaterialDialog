@@ -14,7 +14,7 @@ allprojects {
 }
 
 dependencies {
-       implementation 'com.github.shank03:MaterialDialog:1.0.0'
+       implementation 'com.github.shank03:MaterialDialog:1.3.0'
 }
 ```
  
