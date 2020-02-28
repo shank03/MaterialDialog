@@ -6,16 +6,7 @@ Simple and better material dialogs
 # Android Gradle
 Implementation:
 ```
-allprojects {
-  repositories {
-	  ...
-		maven { url 'https://jitpack.io' }
-	}
-}
-
-dependencies {
-       implementation 'com.github.shank03:MaterialDialog:1.3.0'
-}
+    Not working currently, you can still copy the files/classes
 ```
  
 # Licensce
